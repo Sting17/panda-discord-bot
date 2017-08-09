@@ -1,3 +1,5 @@
+NEW README REQUIRED
+
 <p align="center"><a href="https://nodei.co/npm/discord-music-bot/"><img src="https://nodei.co/npm/discord-music-bot.png"></a></p>
 
 A Node.JS Discord bot that takes song requests from videos on YouTube, queues them and plays the audio of said videos on a voice channel.
