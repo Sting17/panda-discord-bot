@@ -1,5 +1,5 @@
 var env =require('dotenv').config();
-var bot = require("./musicbot");
+var bot = require("./panda");
 var serverName = "Pandemic";
 var textChannelName = "bot-commands";
 var voiceChannelName = "Chill Room";
