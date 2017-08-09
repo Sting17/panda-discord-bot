@@ -1,9 +1,13 @@
 var env =require('dotenv').config();
+
 var bot = require("./panda");
-var serverName = "Pandemic";
-var textChannelName = "bot-commands";
-var voiceChannelName = "Chill Room";
+var serverId = "325155816250540032";
+var textChannelId = "328547123706462209";
+var voiceChannelId = "325155816250540033";
 var aliasesFile = "aliases";
 var botToken = process.env.BOT_TOKEN;
+var autoplayFile = ./botAutoPlayFile;
+var autoPlay = true;
+var informNp = false;
 
-bot.run(serverName, textChannelName, voiceChannelName, aliasesFile, botToken);
+bot.run(serverId, textChannelId, voiceChannelId, aliasesFile, botToken, autoplayFile, autoPlay, informNp);
