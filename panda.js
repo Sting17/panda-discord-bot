@@ -29,7 +29,7 @@ const bot = new Discord.Client({
 
 const mentionText = 'Use !commands to see the command list.';
 let aliasesFilePath = 'aliases.json';
-let autoPlaylistFilePath = 'autoplaylist.txt';
+let autoPlaylistFilePath = 'botAutoPlayFile';
 
 let stopped = false;
 let paused = false;
