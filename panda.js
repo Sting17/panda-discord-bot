@@ -874,6 +874,7 @@ function loadPermissions() {
 		clearRequire('./permissions.json');
 		permissions = require('./permissions.json');
 	} catch (err) {
+    console.log(err);
 		permissions.global = {};
 		permissions.users = {};
 	}
